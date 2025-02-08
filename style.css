@@ -82,9 +82,8 @@ li{
 
 .book_img{
     margin-left: 300px;
-    margin-top: 10px;
     width: 590px;
-    height: 800px;
+    height: 750px;
     border-radius: 16px;
 }
 
@@ -97,4 +96,19 @@ li{
     display: flex;
     width: 100px;
 
+}
+.button_school{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    text-align: center;
+    width: 209px;
+    height: 44px;
+    margin-left: 690px;
+    font-size: 17px;
+    
+}
+
+#h3{
+    margin-left: 690px;
 }
