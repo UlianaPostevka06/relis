@@ -150,7 +150,7 @@ h3{
 .container_mini{
     display: flex;
     margin-top: 40px;
-    gap: 70px;
+    gap: 150px;
     
 
 }
@@ -169,11 +169,14 @@ h3{
 
 .main_text2{
     background-color: #EFEFEF;
-    text-align: center;
     width: 285px;
     height: 150px;
     border-radius: 100px;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
  }
 
  
