@@ -14,17 +14,17 @@
                 <img src="img/logo.png" alt="">
                 <nav>
                     <ul>
-                        <li class="fa-solid fa-desktop"><a class="emphasis" href="#">Навчання</a></li>
-                        <li class="fa-solid fa-hotel"><a class="emphasis" href="#">Про нас</a></li>
-                        <li class="fa-solid fa-users"><a class="emphasis" href="#">Вчителі</a></li>
+                        <li class="fa-solid fa-desktop" onclick="document.getElementById('stude').scrollIntoView({behavior: 'smooth'});"><a class="emphasis" href="#">Навчання</a></li>
+                        <li class="fa-solid fa-hotel" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});"><a class="emphasis" href="#">Про нас</a></li>
+                        <li class="fa-solid fa-users" onclick="document.getElementById('teacher').scrollIntoView({behavior: 'smooth'});"><a class="emphasis" href="#">Вчителі</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="container_menu">
                 <div class='container_text'>
                     <div class='block'>
-                        <h1 class='header'>Онлайн‑школа вільної англійської</h1>
-                        <h2 class='header'>Пройди курс підготовки до ЗНО з англійської мови, та здай на високі бали і поступи в ВНЗ</h2>
+                        <div class='header_text_1'>Онлайн‑школа вільної англійської</div>
+                        <div class='header_text_2'>Пройди курс підготовки до ЗНО з англійської мови, та здай на високі бали і поступи в ВНЗ</div>
                         <div class="buttons_main">
                             <button class='button_black'>Почати навчання</button>
                             <button class='button_white'>Почати навчання</button>
@@ -39,25 +39,27 @@
         </div>
     </header>
     <main>
-        <button class='button_school'>Факти про школу</button>
-        <h3>Чому нам варто довіряти?</h3>
-        <div class="container_mini">
-            <div class="main_text1">
-                <div class="work_num">9+ роки</div>
-                <div class="work_name">працюємо</div>
+        <section class='section1' id='about'>
+            <button class='button_school'>Факти про школу</button>
+            <h1>Чому нам варто довіряти?</h1>
+            <div class="container_mini">
+                <div class="main_text1">
+                    <div class="work_num">9+ роки</div>
+                    <div class="work_name">працюємо</div>
+                </div>
+                <div class="main_text2">
+                    <div class="work_num">2000+</div>
+                    <div class="work_name">студентів</div>
+                </div>
+                <img src="img/blocks.png" alt="">
+                <div class="main_text3">
+                    <div class="work_num">374</div>
+                    <div class="work_name">двістібальника</div>
+                </div>
             </div>
-            <div class="main_text2">
-                <div class="work_num">2000+</div>
-                <div class="work_name">студентів</div>
-            </div>
-            <img src="img/blocks.png" alt="">
-            <div class="main_text3">
-                <div class="work_num">374</div>
-                <div class="work_name">двістібальника</div>
-            </div>
-        </div>
+        </section>
         <button class='button_study'>Формат навчання</button>
-        <h4>Що тебе чекає на курсі?</h4>
+        <h2>Що тебе чекає на курсі?</h2>
 
         <div class="container_stude">
             <div class="block_1">
@@ -80,9 +82,9 @@
 
         <div class="container_course">
             <div class="course_window_1">
-                <h5>Формат уроків - вебінари</h5>
-                <h6>4 години</h6>
-                <h7>Середня тривалість</h7>
+                <div class="window_mini_1_text_1">Формат уроків - вебінари</div>
+                <div class="window_mini_1_text_2">4 години</div>
+                <div class="window_mini_1_text_3">Середня тривалість</div>
             </div>
             <div class="course_window_2">
                 
@@ -92,15 +94,33 @@
                     <img src="img/lesson_program.png" alt="">
                 </div>
                 <div class="window_mini_2">
-                    <!-- <h8>{запис вебінарів}</h8> -->
-                    <h9>Ти завжди можеш знайти запис уроку на платформі, щоб вивчити або повторити матеріал</h9>
+                    <div class="window_mini_2_text_1">{запис вебінарів}</div>
+                    <div class="window_mini_2_text_2">Ти завжди можеш знайти запис уроку на платформі, щоб вивчити або повторити матеріал</div>
                 </div>
             </div>
         </div>
         <div class="icon_left_right">
             <li class="fa-solid fa-square-caret-left"></li>
             <li class="fa-solid fa-square-caret-right"></li>
+        </div>
+
+        <section class='section1' id='stude'>
+            <div class="background">
+                <button class='button_program'>Програма навчання</button>
+                <h3>Що ти будеш вивчати?</h3>
+                <div class="container_training_program">
+                    <div class="training_program_level_1">
+                        <div class="level">Level 1</div>
+                        <img src="img/level_1.png" alt="">
+                        <div class="text_level">
+                            <div class="seasons">Вересень</div>
+                            <div class="seasons_text_down">На першому етапі ми познайомимось із форматом ЗНО-2025, складемо план підготовки та почнемо розбирати завдання з іспиту.</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+        </section>
 
     </main>
     <footer></footer>

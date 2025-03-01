@@ -55,6 +55,10 @@ li{
     
 }
 
+.header_text_1{
+    font-size: 40px;
+    font-weight: 600;
+}
 
 .container_text{
     display: flex;
@@ -137,7 +141,7 @@ li{
     
 }
 
-h3{
+h1{
     margin-top: 40px;
     margin-left: 470px;
     font-size: 40px;
@@ -190,7 +194,7 @@ h3{
     font-size: 17px;
  }
 
- h4{
+ h2{
     font-size: 40px;
     margin-top: 10px;
  }
@@ -293,19 +297,19 @@ h3{
     border-radius: 16px;
  }
 
- h5{
+ .window_mini_1_text_1{
     font-size: 60px;
     margin-left: 50px;
     margin-top: 40px;
  }
 
- h6{
+.window_mini_1_text_2{
     font-size: 50px;
     margin-left: 50px;
     margin-top: 240px;
  }
 
- h7{
+.window_mini_1_text_3{
     font-size: 12px;
     margin-left: 50px;
  }
@@ -317,20 +321,65 @@ h3{
     margin-top: 15px;
     border-radius: 16px;
  }
-/* 
- h8{
-    
+
+.window_mini_2_text_1{
+    margin-left: 30px;
     font-size: 60px;
     font-weight: 200px;
- } */
+ }
 
- h9{
-    font-size: 12px;
-    margin-top: 90px;
+.window_mini_2_text_2{
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 170px;
  }
 
  .icon_left_right{
+    background-color: #F7F7F8;
     display: flex;
     margin-left: 1200px;
     margin-top: 50px;
  }
+
+ h3{
+    margin-top: 50px;
+    font-size: 40px;
+ }
+
+.training_program_level_1{
+    background-color: #ECF86E;
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+
+.background{
+    background-color: #F7F7F8;
+    margin-top: 50px;
+}
+
+.button_program{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    text-align: center;
+    width: 235px;
+    height: 44px;
+    font-size: 20px;
+}
+
+.level{
+    margin-left: 10px;
+}
+
+.text_level{
+    margin-left: 40px;
+    
+}
+
+.seasons_text_down{
+    margin-top: 20px;
+}
